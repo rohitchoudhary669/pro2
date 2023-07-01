@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <title>Card</title>
+        <style>
+            body{
+               background: linear-gradient(400deg ,rgb(42, 41, 41), rgb(243, 173, 173), rgb(144, 241, 241) );
+            }
+.footers{
+    height: 30vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: auto;
+            padding:1px ;
+            margin-left: auto;
+            margin-right: auto;
+            color:rgb(18, 18, 18);                
+}
+.lists{
+    list-style: none;
+    font-weight: bold;  
+}
+.imgs{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-top: 80px;
+            margin-left: 20px;
+            margin-right: auto;   
+            justify-items:center;
+}
+.rights{
+    display:flex;
+    flex-direction:row;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content:left; 
+    width: 180px;
+    opacity: 0.6;  
+    height: 15vh; 
+    color:mediumseagreen;
+}
+.rights:hover{
+    font-size: 2.5rem;
+    color: rgb(219, 63, 63);
+    font-style: italic;
+    opacity: 1.0;
+    text-shadow: 5px 5px 5px yellow;
+    width: 250px;
+}
+ 
+.lefts{
+    font-size: large;
+    font-weight: bold;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: row;
+    width: 1450px;
+    position:absolute;
+    left:60%;
+    top:5%;
+    height:0%;
+    width:35%; 
+    text-decoration: none; 
+}
+   a:hover{
+    color: rgb(100, 158, 158);
+    font-style: none; 
+   }
+   .header{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(25, 62, 62) ;
+    text-align: center;
+    text-shadow: 5px 5px 5px orangered;
+    border-radius: 15px;
+    height: 80px;    
+    padding: 50px;
+   }
+   header:hover{
+    text-shadow: 5px 5px 5px peru ;
+    box-sizing: border-box;
+    font-size: 3rem;
+   }
+   .photos{
+    height: 100px;
+    width: 100px;
+   }
+   #div01{
+    height: 100vh;
+            border: 5px solid teal;
+            border-radius: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 1420px;
+            padding:1px ;
+            margin-left: auto;
+            margin-right: auto;
+   }
+   .photos{
+    width: 260px;
+    height: auto;
+    border:5px solid purple;
+    border-radius: 20px;
+    padding: 10px;
+   }
+   #div02{
+       display: grid;
+       grid-template-rows: 0.5fr 0.5fr ;
+       grid-template-columns: 1fr 1fr;
+       border: 5px solid gold;
+       border-radius:20px ;
+       margin: 2px;
+       padding: 10px;
+   }
+        
+</style>
+<div>
+    <div class="rights">Chalo-Chale</div>
+    <div class="lefts">
+        <div>
+            <a href="index02.html" style="text-decoration: none;">Home</a></div>
+        <div>
+            <a href="index02.html" style="text-decoration: none;">Cart</a></div>
+        <div>
+            <a href="index02.html" style="text-decoration: none;">Profile</a></div>
+    </div>
+</div>
+<hr color="white">
+</head>
+<body>
+    <p class="header">
+        Welcome to Chalo- Chale 
+    </p>
+    <div id="div01">
+        <p style="padding: 2px; color: aliceblue;font-size:2rem;">Place where you have to visit:-</p>
+        <div id="div02">
+            
+            <div class="photos">
+                <img src="manal.jpg">
+            </div>
+            <div>
+                <p> With spectacular valleys, breathtaking views, snowcapped mountains, and lush forests of oak, deodar, and pine, Manali is a magical hill station at the northern end of Kullu valley in Himachal Pradesh. Gifted to the world by the mighty Himalayas, it is known to be one of the most popular destinations...
+                    <br><br>
+                   <b>Best Time: October to June</b> 
+                    
+                    </p>
+                    <button style="padding: 2px; color: rgb(91, 91, 177); border-radius: 20px;font-size:15px;">Read More</button>
+            </div>
+        </div>
+        <div id="div02">
+            <div class="photos">
+                <img src="ladhak.jpg" style="height: 200px; width: 250px;">
+            </div>
+            <div>
+                <p> Ladakh is a union territory in the Kashmir region of India. Formerly falling in the state of Jammu & Kashmir, Ladakh was administered a union territory on 31st October 2019. Extending from the Siachen Glacier to the main Great Himalayas, Ladakh is a land like no other. Dominated by dramatic land...
+<br><br>
+                   <b>Best Time: Jun to Sep</b> 
+                    
+                    </p>
+                    <button style="padding: 2px; color: rgb(91, 91, 177); border-radius: 20px;font-size:15px;">Read More</button>
+            </div>
+        </div>
+        <div id="div02">
+            <div class="photos">
+                <img src="images.jpg" style="width: 250;">
+            </div>
+            <div>
+                <p> Located amidst imposing mountains in Karnataka with a perpetually misty landscape, Coorg is a popular coffee producing hill station. It is popular for its beautiful green hills and the streams cutting right through them. It also stands as a popular destination because of its culture and people....
+<br><br>
+                   <b>Best Time: October to March</b> 
+                    
+                                        
+                    </p>
+                    <button style="padding: 2px; color: rgb(91, 91, 177); border-radius: 20px;font-size:15px;">Read More</button>
+            </div>
+        </div>
+    </div>
+    
+     
+</body>
+<hr color="white">
+<footer >
+    <div  class="footers">
+      <div>
+            <ul>  
+                <h3>Contact Info</h3>
+            <ul class="lists">
+                <li>Company </li>
+                <li>about </li>
+                <li>jobs </li>
+                <li> for the record </li>
+            </ul>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3>for the artist</h3>
+                <ul class="lists">
+                    <li>developer</li>
+                    <li>adverting</li>
+                    <li>useful links</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="imgs">
+            
+            <div>
+                <img src = "facebook-3-logo-svgrepo-com.svg" style="height: 35px;">
+            </div>
+            <div><img src="twitter-3-logo-svgrepo-com.svg" style="height: 35px;"></div>
+            <div><img src="google-icon-logo-svgrepo-com.svg" style="height: 35px;"></div>
+        </div>
+    </div>
+    <p style="font-size: 20px;text-align: center;"> CopyRight@123</p>
+</footer>
+</html>
